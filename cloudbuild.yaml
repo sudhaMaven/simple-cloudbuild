@@ -1,0 +1,10 @@
+steps:
+
+- name: 'gcr.io/cloud-builders/gcloud'
+  entrypoint: 'bash'
+  args:
+  - '-c'
+  - |
+    echo "test build"
+  
+logsBucket: 'gs://shared-builderpreprod-bucket01/buildlogs/devops/develop'
