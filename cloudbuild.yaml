@@ -7,4 +7,4 @@ steps:
   - |
     echo "test build"
   
-logsBucket: 'gs://shared-builderpreprod-bucket01/buildlogs/devops/develop'
+logsBucket: 'gs://test-bucket-sudha/buildlogs/testlogs'
