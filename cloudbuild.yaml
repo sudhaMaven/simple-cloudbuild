@@ -6,5 +6,6 @@ steps:
   - '-c'
   - |
     echo "test build"
+    echo "one more"
   
 logsBucket: 'gs://test-bucket-sudha/buildlogs/testlogs'
