@@ -16,7 +16,7 @@ import json
 sg = sendgrid.SendGridAPIClient(api_key=os.environ.get('SENDGRID_API_KEY'))
 
 def notify_budget(event, context):
-    """Triggered from a message on a Cloud Pub/Sub topic.
+    """Triggered from a message on a Cloud Pub/Sub topic. Test
     Args:
          event (dict): Event payload.
          context (google.cloud.functions.Context): Metadata for the event.
