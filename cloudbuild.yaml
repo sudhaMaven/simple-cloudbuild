@@ -9,5 +9,6 @@ steps:
     echo "one more"
     echo "one more1"
     echo "123"
+    echo "456"
   
 logsBucket: 'gs://test-bucket-sudha/buildlogs/testlogs'
